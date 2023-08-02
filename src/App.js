@@ -46,6 +46,7 @@ function App() {
         </a>
         
       </div>
+      <div className="details">
       <details  style={{border: "1px solid white", color:"white"}}>
     <summary  style={{fontWeight:"bold", fontSize:"18px", cursor:"pointer", color:"white", marginBottom:"20px", padding:"20px 20px 0px 40px",}}>
       About
@@ -75,6 +76,7 @@ Passionate about the power of technology to drive change, I stay up-to-date with
         </div>
       </div>
 </details>
+</div>
     </div>
   );
 }
