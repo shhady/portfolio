@@ -4,6 +4,7 @@
   height: 100%;
   background-color: black;
   min-height: 100vh;
+  overflow:hidden;
 }
 
   .contentDiv {
@@ -159,7 +160,7 @@
     margin: 0px 0px 20px 0px;
     text-shadow: 2px 2px 5px rgb(109, 108, 108);
 }
-.pictureDiv {
+/* .pictureDiv {
   position: fixed;
   margin-top: 5px;
   left: 0;
@@ -170,7 +171,7 @@
   border-bottom-left-radius: 20px;
   overflow: hidden;
   z-index: 2; 
-}
+} */
   
   .circleBehindPicture {
    width: 100%;

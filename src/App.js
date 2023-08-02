@@ -12,11 +12,6 @@ function App() {
 
   return (
     <div className="homePageContainer">
-      {/* <div className="pictureDiv">
-        <div className="thePicture">
-          <div className="circleBehindPicture"></div>
-        </div>
-      </div> */}
       <div className="contentDiv">
       <div className="backgroundImageContainer">
         <div className='aboveImage'></div>
