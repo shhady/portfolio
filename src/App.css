@@ -49,6 +49,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     filter: grayscale(100%); /* To apply the grayscale effect */
+    animation: slideInFromRight 1s forwards;
   }
   .details{
     width: 98%;
@@ -63,7 +64,9 @@
     text-shadow: 2px 2px 5px rgb(156, 151, 151);
     z-index: 9;
     margin-top: 20px;
-  }
+    animation: zoomInTech 1s forwards;  }
+ 
+
   .Job{
     font-size: 36px;
     font-weight: bold;
@@ -73,7 +76,18 @@
     margin-top: 160px;
     text-shadow: 2px 2px 5px rgb(109, 108, 108);
     z-index: 9;
+    animation: zoomInTech 1s forwards;
 
+  }
+
+  
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
   }
   .projects{
     display: grid;
@@ -149,7 +163,12 @@
     z-index: 9;
     margin: 40px 0px 40px 0px;
     text-shadow: 2px 2px 5px rgb(109, 108, 108);
+    animation: zoomInTech 1s forwards;
+
 }
+
+
+
 .techs{
   font-size: 16px;
     font-weight: bold;
@@ -159,19 +178,17 @@
     z-index: 9;
     margin: 0px 0px 20px 0px;
     text-shadow: 2px 2px 5px rgb(109, 108, 108);
+    animation: zoomInTech 1s forwards;
+
 }
-/* .pictureDiv {
-  position: fixed;
-  margin-top: 5px;
-  left: 0;
-  width: 100%;
-  height: 500px;
-  border-top-right-radius: 50%;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  overflow: hidden;
-  z-index: 2; 
-} */
+@keyframes zoomInTech {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
   
   .circleBehindPicture {
    width: 100%;
