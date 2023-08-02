@@ -4,6 +4,7 @@
   height: 100%;
   background-color: black;
   min-height: 100vh;
+  max-height: 100vh;
 }
 
   .contentDiv {
@@ -64,7 +65,7 @@
     color: white;
     text-shadow: 2px 2px 5px rgb(156, 151, 151);
     z-index: 9;
-
+    margin-top: 20px;
   }
   .Job{
     font-size: 36px;
