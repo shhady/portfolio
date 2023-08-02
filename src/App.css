@@ -3,7 +3,7 @@
   width: 100vw;
   height: 100%;
   background-color: black;
-  min-height: 98vh;
+  min-height: 100vh;
 }
 
   .contentDiv {
@@ -12,15 +12,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* margin-right: 50px; */
     color: #fff;
-    /* background-image: url("/public/proPic.png"); */
-    /* background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
     position: relative;
-
-    
   }
   .backgroundImageContainer {
     position: absolute;
@@ -153,7 +146,7 @@
     font-family:cursive;
     color: #cfcfcf;
     z-index: 9;
-
+    margin: 40px 0px 40px 0px;
     text-shadow: 2px 2px 5px rgb(109, 108, 108);
 }
 .techs{
@@ -163,6 +156,7 @@
     font-family:monospace;
     color: #ffffff;
     z-index: 9;
+    margin: 0px 0px 20px 0px;
     text-shadow: 2px 2px 5px rgb(109, 108, 108);
 }
 .pictureDiv {
