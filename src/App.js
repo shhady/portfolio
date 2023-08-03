@@ -56,7 +56,7 @@ function App() {
       </div>
       <div className="details">
       <details  style={{ color:"white"}}>
-    <summary  style={{fontWeight:"bold", fontSize:"18px", cursor:"pointer", color:"white", marginBottom:"20px", padding:"20px 20px 0px 40px",}}>
+    <summary  style={{fontWeight:"bold", fontSize:"18px", cursor:"pointer", color:"white", marginBottom:"20px", padding:"10px 20px 0px 40px",}}>
       About
     </summary>
     <div className="about">
