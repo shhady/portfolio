@@ -3,6 +3,11 @@ import { FaInstagram, FaFacebook } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import { BsTelephoneFill } from 'react-icons/bs';
 import { FaLinkedin ,FaWhatsapp} from 'react-icons/fa';
+import {SiExpress, SiMongodb} from 'react-icons/si';
+import {AiOutlineHtml5} from 'react-icons/ai';
+import {IoLogoCss3} from 'react-icons/io';
+import {FaReact, FaNodeJs} from 'react-icons/fa';
+
 
 function App() {
   function sendEmail() {
@@ -20,9 +25,16 @@ function App() {
         <div className="Name">Shhady Serhan</div>
         <h2 className="Job">Full Stack <br/> Web Developer</h2>
         <h3 className="tech">Technologies</h3>
-        <h4 className="techs"> HTML, CSS, React, Node.js<br/> Express, MongoDB</h4>
+        <h4 className="techs"> HTML CSS React Node.js<br/> Express MongoDB</h4>
       </div>
-
+      <div className="icons">
+        <AiOutlineHtml5 className="iconT"/>
+        <IoLogoCss3 className="iconT"/>
+        <FaReact className="iconT"/>
+        <FaNodeJs className="iconT"/>
+        <SiExpress className="iconT"/>
+        <SiMongodb className="iconT"/>
+      </div>
       <div className="social-icons">
         {/* Removed the surrounding divs */}
         <BsTelephoneFill className="iconPhone" onClick={() => window.open("tel:0543113297", "_blank")} />

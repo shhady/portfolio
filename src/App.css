@@ -1,3 +1,5 @@
+
+
 .homePageContainer {
   /* position: relative; */
   width: 100vw;
@@ -7,7 +9,12 @@
   overflow:hidden;
   margin-bottom: 60px;
 }
-
+.icons-carousel .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
   .contentDiv {
     display: flex;
     width: 100%;
@@ -55,8 +62,32 @@
   }
   .details{
     width: 98%;
-    margin: 30px auto;
+    margin: 5px auto;
   }
+  .icons {
+    display: flex;
+    padding: 15px;
+    gap: 20px;
+    justify-content: space-between;
+    overflow: hidden; /* Hide the overflow so that icons outside the container won't be visible */
+  }
+  
+
+  
+  .iconT{
+    height: 40px;
+    width: 40px;
+    color: white;
+
+  }
+  /* @keyframes iconAnimation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-360%);
+    }
+  } */
   .Name {
     font-size: 48px;
     font-weight: bold;
