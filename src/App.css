@@ -34,7 +34,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7); /* Adjust the opacity (0 to 1) to make the image darker or lighter */
+    background: rgba(0, 0, 0, 0.6); 
+    /* Adjust the opacity (0 to 1) to make the image darker or lighter */
   }
   /* Add the background image styles here */
   .backgroundImageContainer::before {
@@ -45,7 +46,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("/public/proPic.png");
+    background-image: url("/public/cartoon.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
