@@ -25,7 +25,7 @@ function App() {
         <div className="Name">Shhady Serhan</div>
         <h2 className="Job">Full Stack <br/> Web Developer</h2>
         <h3 className="tech">Technologies</h3>
-        <h4 className="techs"> HTML CSS React Node.js<br/> Express MongoDB</h4>
+        <h4 className="techs"> HTML | CSS | React | Node.js<br/> Express | MongoDB</h4>
       </div>
       <div className="icons">
         <AiOutlineHtml5 className="iconT"/>
