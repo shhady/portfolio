@@ -22,10 +22,15 @@ function App() {
         <div className='aboveImage'></div>
           {/* Background image goes here */}
         </div>
-        <div className="Name">Shhady Serhan</div>
+        <div style={{height:'100%', padding:"20px 0px", display:'flex', flexDirection:"column", justifyContent:"space-between", alignItems:"center"}}>
+       <div> <div className="Name">Shhady Serhan</div>
         <h2 className="Job">Full Stack <br/> Web Developer</h2>
+        </div>
+        <div>
         <h3 className="tech">Technologies</h3>
         <h4 className="techs"> HTML | CSS | React | Node.js<br/> Express | MongoDB</h4>
+        </div>
+        </div>
       </div>
       <div className="icons">
         <AiOutlineHtml5 className="iconT"/>
