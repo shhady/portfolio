@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="homePageContainer">
-      <div className="contentDiv">
+     <div className="contentDiv">
       <div className="backgroundImageContainer">
         <div className='aboveImage'></div>
           {/* Background image goes here */}
@@ -22,6 +22,7 @@ function App() {
         <h3 className="tech">Technologies</h3>
         <h4 className="techs"> HTML, CSS, React, Node.js<br/> Express, MongoDB</h4>
       </div>
+
       <div className="social-icons">
         {/* Removed the surrounding divs */}
         <BsTelephoneFill className="iconPhone" onClick={() => window.open("tel:0543113297", "_blank")} />
@@ -42,19 +43,21 @@ function App() {
         
       </div>
       <div className="details">
-      <details  style={{border: "1px solid white", color:"white"}}>
+      <details  style={{ color:"white"}}>
     <summary  style={{fontWeight:"bold", fontSize:"18px", cursor:"pointer", color:"white", marginBottom:"20px", padding:"20px 20px 0px 40px",}}>
       About
     </summary>
     <div className="about">
-    a dynamic professional with a unique blend of experience in both finance and technology. My background as an account manager at eToro, combined with my skills as a full-stack developer in HTML, CSS, React, Node.js, Express, and MongoDB, make me a valuable asset to any organization.
+    I'm a highly skilled and passionate Web Developer based in Nazareth. With expertise in HTML, CSS, React, Node.js, Express, and MongoDB, I craft innovative and high-performing web solutions. <br/>
 
-With a proven track record in the financial services industry, I have honed my skills in risk management, customer service, and business development. My strong background in business strategy and investments, as well as my experience in sales, allows me to approach problems with a creative and innovative mindset.
+My journey as a Web Developer has been fueled by a profound belief in the transformative power of technology. Staying up-to-date with the latest advancements, I am committed to delivering cutting-edge web experiences that drive positive change.<br/>
 
-Passionate about the power of technology to drive change, I stay up-to-date with the latest advancements in the industry. I am dedicated to bringing my best to every project, with a focus on excellence and a drive to make a positive impact. Whether working on financial or tech-related initiatives, I am confident in my ability to bring value and make a difference in any team.
+Whether it's building responsive websites, dynamic web applications, or scalable backend systems, I approach each project with creativity and dedication to excellence. My goal is to make a lasting impact by leveraging the full potential of technology.<br/>
+
+If you're looking for a driven Web Developer to bring your digital ideas to life and elevate your online presence, I'm here to help. Let's collaborate and take your projects to new heights. Together, we'll create something remarkable that leaves a lasting impression on your audience. Let's get started on our web development journey today!
 </div>
 </details>
-<details  style={{border: "1px solid white", color:"white"}}>
+<details  style={{ color:"white"}}>
     <summary  style={{fontWeight:"bold", fontSize:"18px", cursor:"pointer", color:"white", marginBottom:"20px", padding:"20px 20px 0px 40px",}}>
       Projects
     </summary>
