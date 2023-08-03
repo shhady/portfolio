@@ -94,7 +94,7 @@
     text-align: center;
     font-family:cursive;
     color: white;
-    text-shadow: 2px 2px 5px rgb(156, 151, 151);
+    text-shadow: 3px 3px 8px rgb(70, 65, 65);
     z-index: 9;
     /* margin-top: 20px; */
     animation: zoomInTech 1s forwards;  }
@@ -210,7 +210,7 @@
     font-family:cursive;
     color: #cfcfcf;
     z-index: 9;
-    margin: 40px 0px 20px 0px;
+    margin: 40px 0px 10px 0px;
     text-shadow: 2px 2px 5px rgb(109, 108, 108);
     animation: zoomInTech 1s forwards;
 
