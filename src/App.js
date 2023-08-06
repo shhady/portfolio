@@ -56,6 +56,7 @@ function App() {
         </a>
         
       </div>
+      <div className="detailsAnimation">
       <div className="details">
       <details  style={{ color:"white"}}>
     <summary  style={{fontWeight:"bold", fontSize:"18px", cursor:"pointer", color:"white", marginBottom:"20px", padding:"10px 20px 0px 40px",}}>
@@ -122,6 +123,7 @@ function App() {
         </div>
       </div>
 </details>
+</div>
 </div>
     </div>
   );

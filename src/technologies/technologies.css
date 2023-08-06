@@ -5,6 +5,8 @@
 
 .technologies-list{
    padding: 0px 60px;
+   animation: slideInFromLeft 0.5s ease-in-out;
+
 }
 .technology{
     margin-top: 10px;

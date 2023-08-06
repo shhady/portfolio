@@ -131,16 +131,22 @@
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     padding: 0px 40px 20px 40px;
+    animation: zoomInTech 1s forwards;
+
   }
   .workExp{
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
     padding: 0px 40px 20px 40px;
+    animation: slideInFromLeft 0.5s ease-in-out;
+
   }
   .about{
     padding: 0px 20px 20px 40px;
     color: white;
+    animation: slideInFromLeft 0.5s ease-in-out;
+
   }
   .logoOfProject1{
     width: 100%;
@@ -267,7 +273,18 @@
     background-position: center;
     filter: grayscale(100%);
   }
+  .detailsAnimation{
+    animation: slideInFromLeft 0.5s ease-in-out;
 
+  }
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
   @media (max-width: 600px) {
     .contentDiv {
       display: flex;
