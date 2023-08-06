@@ -40,7 +40,7 @@
     overflow: hidden;
   }
   .backgroundImage{
-    background-image: url("/public/ett.png");
+    background-image: url("/public/photoB.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
