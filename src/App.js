@@ -106,7 +106,7 @@ function App() {
     </summary>
       <Technologies />
 </details>
-<details  style={{ color:"white"}}>
+{/* <details  style={{ color:"white"}}>
     <summary  style={{fontWeight:"bold", fontSize:"18px", cursor:"pointer", color:"white", marginBottom:"20px", padding:"20px 20px 0px 40px",}}>
       Projects
     </summary>
@@ -122,7 +122,7 @@ function App() {
         </a>
         </div>
       </div>
-</details>
+</details> */}
 </div>
 </div>
     </div>
