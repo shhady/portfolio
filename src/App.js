@@ -74,7 +74,7 @@ function App() {
 </details>
 <details  style={{ color:"white",backgroundColor: 'rgb(20, 20, 20)'}}>
     <summary  style={{fontWeight:"bold", fontSize:"18px", cursor:"pointer", color:"white", padding:"20px 20px 20px 40px",}}>
-    Experience
+    Work experience
     </summary>
       <div className="workExp">
       <div className="exp1">
