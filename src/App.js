@@ -72,7 +72,7 @@ function App() {
     If you're looking for a driven Web Developer to bring your digital ideas to life and elevate your online presence, I'm here to help. Let's collaborate and take your projects to new heights. Together, we'll create something remarkable that leaves a lasting impression on your audience. Let's get started on our web development journey today!
 </div>
 </details>
-<details  style={{ color:"white"}}>
+<details  style={{ color:"white",backgroundColor: 'rgb(20, 20, 20)'}}>
     <summary  style={{fontWeight:"bold", fontSize:"18px", cursor:"pointer", color:"white", marginBottom:"20px", padding:"20px 20px 0px 40px",}}>
     Experience
     </summary>
@@ -100,7 +100,7 @@ function App() {
     </summary>
       <Services />
 </details>
-<details  style={{ color:"white"}}>
+<details  style={{ color:"white",backgroundColor: 'rgb(20, 20, 20)'}}>
     <summary  style={{fontWeight:"bold", fontSize:"18px", cursor:"pointer", color:"white", marginBottom:"20px", padding:"20px 20px 0px 40px",}}>
       Technologies
     </summary>
