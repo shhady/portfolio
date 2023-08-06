@@ -73,7 +73,7 @@ function App() {
 </div>
 </details>
 <details  style={{ color:"white",backgroundColor: 'rgb(20, 20, 20)'}}>
-    <summary  style={{fontWeight:"bold", fontSize:"18px", cursor:"pointer", color:"white", marginBottom:"20px", padding:"20px 20px 0px 40px",}}>
+    <summary  style={{fontWeight:"bold", fontSize:"18px", cursor:"pointer", color:"white", padding:"20px 20px 20px 40px",}}>
     Experience
     </summary>
       <div className="workExp">
@@ -101,7 +101,7 @@ function App() {
       <Services />
 </details>
 <details  style={{ color:"white",backgroundColor: 'rgb(20, 20, 20)'}}>
-    <summary  style={{fontWeight:"bold", fontSize:"18px", cursor:"pointer", color:"white", marginBottom:"20px", padding:"20px 20px 0px 40px",}}>
+    <summary  style={{fontWeight:"bold", fontSize:"18px", cursor:"pointer", color:"white", padding:"20px 20px 20px 40px",}}>
       Technologies
     </summary>
       <Technologies />
