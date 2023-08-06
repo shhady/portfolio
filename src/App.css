@@ -23,7 +23,7 @@
     align-items: center;
     color: #fff;
     /* position: relative; */
-    min-height: 50vh;
+    min-height: 45vh;
     position: relative;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -47,6 +47,7 @@
     width: 280px;
     height: 280px;
     border-radius: 50%;
+    margin-top: -30px;
   }
   .aboveImage {
     position: absolute;
@@ -113,7 +114,7 @@
     text-shadow: 2px 2px 5px rgb(109, 108, 108);
     z-index: 9;
     animation: zoomInTech 1s forwards;
-
+    margin-top: -40px;
   }
 
   
