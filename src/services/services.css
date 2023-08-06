@@ -1,0 +1,76 @@
+.services-section{
+    padding: 0px 40px 0px 40px;
+    background-color: rgb(20, 20, 20);
+    color: black;
+    /* height: 91vh; */
+    color: white;
+    /* position: relative; */
+    z-index: 5;
+
+}
+h3{
+  margin-top: 5px;
+}
+.arrowsServices{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.arrow{
+    border: 1px solid rgb(206, 202, 202);
+    padding: 5px 20px;
+    /* margin-top: 25px; */
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    width: 90%;
+    margin: auto;
+}
+
+/* Animation for entering from the left */
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  /* Animation for entering from the right */
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  /* Animation for entering from the left for services3 */
+  @keyframes slideInFromLeftServices3 {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  /* Apply animations to the services */
+  .service-column {
+    animation: slideInFromLeft 0.5s ease-in-out;
+  }
+  
+  .service-column-right {
+    animation: slideInFromRight 0.5s ease-in-out;
+  }
+  
+  .service-column-left {
+    animation: slideInFromLeftServices3 0.5s ease-in-out;
+  }
+  
