@@ -20,12 +20,12 @@ function App() {
     <div className="homePageContainer">
      <div className="contentDiv">
       
-        <div className="Name">Shhady Serhan</div>
+        {/* <div className="Name">Shhady Serhan</div> */}
         <div className="backgroundImage">
         <div className='aboveImage'></div>
           {/* Background image goes here */}
         </div>
-        <h2 className="Job">Full Stack <br/> Web Developer</h2>
+        {/* <h2 className="Job">Full Stack <br/> Web Developer</h2> */}
         {/* <h3 className="tech">Technologies</h3> */}
         {/* <h4 className="techs"> HTML | CSS | React | Node.js<br/> Express | MongoDB</h4> */}
       </div>
